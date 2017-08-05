@@ -16,6 +16,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
+         
   <modules>
     <module>server</module>
     <module>webapp</module>
@@ -28,7 +29,7 @@
       <url>file:///tmp/multi-module-site</url>
     </site>
            
-    <!-- use the following if you're not using a snapshot version. -->
+           <!-- use the following if you're not using a snapshot version. -->
     <repository>
         <id>nexus</id>
         <name>RepositoryProxyRel</name>
@@ -40,7 +41,7 @@
         <name>RepositoryProxySnap</name>
         <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
-
+           
   </distributionManagement>
 
   <build>
